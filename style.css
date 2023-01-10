@@ -1,0 +1,37 @@
+body {
+    background-size: cover;
+    background-position: center;
+}
+#header {
+    width: 100%;
+ margin-top: 0px;
+ font-size: 24px;
+ letter-spacing: 1px;
+}
+#start {
+    font-size: 18px;
+    width: 5%;
+}
+#objects_detected , #status {
+    font-size: 18px;
+}
+#objects_detected {
+    margin-left: -120px;
+}
+#status {
+    margin-left: 20px;
+}
+canvas {
+    margin-top: 50px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba(0 , 0 , 0 , 0.8);
+}
+#footer {
+    bottom: 0;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+
+}
